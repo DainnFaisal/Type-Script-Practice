@@ -20,9 +20,6 @@ const WeatherApp = () => {
 
   return (
     <>
-
-      <h4 className='main-heading'>Current weather of city : {weatherData.location.name} is:</h4>
-      <br />
       <div className='container'>
 
         <div className='weather-box'>
@@ -31,11 +28,12 @@ const WeatherApp = () => {
 
           {weatherData ? (
             <div>
-              <p className='blue'> <b>Location:</b>  {weatherData.location.name}</p>
-              <p className='blue'> <b>Temperature:</b>  {weatherData.current.temp_c}°C</p>
-              <p className='blue'><b>Condition:</b>  {weatherData.current.condition.text}</p>
+              <p className='blue'> <b>Location:</b> {weatherData.location.name}</p>
+              <p className='blue'> <b>Temperature:</b> {weatherData.current.temp_c}°C</p>
+              <p className='blue'><b>Condition:</b> {weatherData.current.condition.text}</p>
               <img src={weatherData.current.condition.icon} alt="Weather Icon" width="50%" />
             </div>
+
           ) : (
             <p>Loading...</p>
           )}
