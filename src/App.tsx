@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Headers from './Components/Headers';
 import CurrentWeather from './Components/CurrentWeather';
 import ForeCastWeather from './Components/ForeCastWeather';
+import Register from './Components/Register';
+import Login from './Components/Login';
 import './App.css';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
           <Routes>
             <Route path='/CurrentWeather' Component={CurrentWeather} />
             <Route path='/ForeCastWeather' Component={ForeCastWeather} />
+            <Route path='/Register' Component={Register} />
+            <Route path='/Login' Component={Login} />
           </Routes>
         </Router>
       </div>

@@ -25,6 +25,12 @@ function Headers() {
                                                       <li><Link to="/ForeCastWeather" className="dropdown-item"> ForeCast Weather </Link></li>
                                                 </ul>
                                           </li>
+                                          <li className="nav-item">
+                                                <Link to="/Register" className="set-links-3" >Register</Link>
+                                          </li>
+                                          <li className="nav-item">
+                                                <Link to="/Login" className="set-links-3" >Login</Link>
+                                          </li>
                                     </ul>
                               </div>
                         </div>

@@ -1,39 +1,80 @@
 .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .weather-box{
-      background-color: rgba(211, 211, 211, 0.842);
-      width: 320px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border-radius: 20px;
-      border: 1px solid rgba(0, 0, 255, 0.479);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
-      transition: box-shadow 0.3s ease-in-out;
-      padding: 5%;
-  }
-  
-  .weather-box:hover {
-      transform: scale(1.05);
-      box-shadow: 0px 0px 15px 0px #000000;
-  
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .current-weather-heading {
-      color: rgba(0, 0, 255, 0.726);
-      font-size: 35px;
-      text-align: center;
-      font-weight: 600;
-      margin-bottom: 10%;
-      margin-top: 5%;
-  }
-  .blue{
-      color: rgba(0, 0, 255, 0.726);
-  }
+.weather-box {
+    background-color: rgba(211, 211, 211, 0.842);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 255, 0.479);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 5%;
+}
 
-  .main-heading{
-      text-align: center;
-  }
+.weather-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px #000000;
+
+}
+
+.current-weather-heading {
+    color: rgba(0, 0, 255, 0.726);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.blue {
+    color: rgba(0, 0, 255, 0.726);
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.dropdown-cities {
+    background-color: rgba(0, 0, 255, 0.479);
+}
+
+li {
+    list-style: none;
+}
+
+.dropdown-select-cities {
+    color: black;
+    margin-right: 2%;
+    float: right;
+    cursor: pointer;
+}
+
+.set-links4 {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.province {
+    text-align: left;
+    color: antiquewhite;
+    margin-left: 10%;
+}
+
+.red {
+    color: tomato;
+}
+
+.blue {
+    color: blue ;
+}
